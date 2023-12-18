@@ -1,5 +1,5 @@
 [package]
-name = "moderr_engine"
+name = "vulkano_triangle"
 version = "0.1.0"
 authors = ["moderr <tymon.student@gmail.com>"]
 edition = "2021"
@@ -10,4 +10,3 @@ vulkano = "0.34.1"
 winit = { version = "0.29.4", features = ["rwh_05"] }
 vulkano-win = "0.34.0"
 vulkano-shaders = "0.34.0"
-imgui = "0.11.0"

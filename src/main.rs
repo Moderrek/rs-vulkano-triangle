@@ -212,7 +212,7 @@ fn main() {
         ..DeviceExtensions::empty()
     };
 
-    let window = Arc::new(WindowBuilder::new().with_title("Moderr Engine").build(&event_loop).unwrap());
+    let window = Arc::new(WindowBuilder::new().with_title("Vulkano Triangle").build(&event_loop).unwrap());
     println!("Created window");
     let surface = Surface::from_window(instance.clone(), window.clone()).unwrap();
 
